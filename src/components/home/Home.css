@@ -1,0 +1,69 @@
+.home-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.home-particle{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.home-content{
+    text-align: center;
+    padding: 50px 40px;
+    color: white;
+}
+.home-content h1{
+    font-size: 67px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.home-content p{
+    font-size: 26px;
+    color: #a4acc4;
+}
+.name-style{
+    color: #037fff;
+}
+.icons {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: -110px;
+    margin-top: 20px;
+    
+}
+.icons ul {
+    list-style: none;
+}
+.icons ul li {
+    display: inline-block;
+    margin: 15px 10px;
+    
+}
+.icons ul li a{
+    color: #a4acc4;
+    font-size: 30px;
+    border:4px solid #2e344e;
+    border-radius: 50%;
+    transition: all 1s ease;
+}
+.icons ul li a:hover{
+    border:4px solid #037fff;
+    color: #037fff;
+}
+.icons ul li .facebook {
+    padding: 14px 25px;
+}
+.icons ul li .github{
+    padding: 15px 20px;
+}
+.icons ul li .linked-in{
+    padding: 15px 22px;
+}
