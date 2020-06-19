@@ -1,0 +1,37 @@
+.about-title{
+    position: relative;
+}
+.about-title h2{
+    color: white;
+    font-size: 45px;
+    margin-top: 80px;
+    font-weight: 800;
+}
+.about-title h2:after, h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    height: 5px;
+    border-radius: 100px;
+}
+.about-title h2:before {
+    width: 200px;
+    background: rgba(3,127,255,.3);
+}
+.about-title h2:after {
+    width: 100px;
+    background: #037fff
+}
+.about-img{
+    margin-top: 80px;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}

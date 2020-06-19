@@ -18,12 +18,12 @@
 .home-content{
     text-align: center;
     padding: 50px 40px;
-    color: white;
 }
 .home-content h1{
     font-size: 67px;
     font-weight: 700;
     margin-bottom: 20px;
+    color: white;
 }
 .home-content p{
     font-size: 26px;
